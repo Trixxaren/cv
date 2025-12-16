@@ -1,3 +1,5 @@
+// src/cvData.ts
+
 export type CvContact = {
   location: string;
   email: string;
@@ -29,7 +31,7 @@ export const cvData: CvData = {
   title: "Frontend-utvecklare",
   contact: {
     location: "Stockholm, Sverige",
-    email: "robin.m.e.vikstrom@gmail.com",
+    email: "robin@example.com",
     phone: "070-000 00 00",
     linkedin: "linkedin.com/in/robinvikstrom",
     github: "github.com/robinvikstrom",
@@ -45,6 +47,16 @@ export const cvData: CvData = {
         "Byggt React-appar (t.ex. chattapp, e-learning-sida).",
         "Jobbat med TypeScript, Tailwind och API:er.",
         "Git/GitHub-flöden med branches och pull requests.",
+      ],
+    },
+    {
+      title: "Säljare",
+      subtitle: "Exempelbolag AB, Stockholm",
+      dates: "2021 – 2022",
+      bullets: [
+        "Ansvar för hela säljprocessen: behov, offert, förhandling, avtal.",
+        "Byggde och vårdade kundrelationer (B2B/B2C).",
+        "Arbetade mot tydliga mål och uppföljning.",
       ],
     },
     {
