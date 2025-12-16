@@ -1,3 +1,5 @@
+// src/components/SectionTitle.tsx
+
 type SectionTitleProps = {
   children: string;
 };
