@@ -1,6 +1,6 @@
 // src/App.tsx
 import { cvData } from "./cvData";
-import { SectionTitle } from "./components/Sectiontitle";
+import { SectionTitle } from "./components/SectionTitle";
 import { Timeline } from "./components/Timeline";
 
 export default function App() {
@@ -29,16 +29,17 @@ export default function App() {
             <div className="flex items-start gap-4">
               {/* Profilbild */}
               <img
-                src="./public/profile.jpg"
+                src="./profile.jpg"
                 alt={`${cvData.name} profilbild`}
-                className="h-30 w-30 rounded-full object-cover ring-2 ring-slate-200 print:ring-slate-300"
+                className="h-30 w-30 rounded-full object-cover ring-2 ring-slate-200 print:ring-slate-300 scale-110"
               />
+              {/* Ha scale-110 eller inget?  */}
 
-              <div>
+              <div className="text-center">
                 <h1 className="mt-6 text-3xl font-bold tracking-tight text-slate-900">
                   {cvData.name}
                 </h1>
-                <p className="mt-1 text-base text-slate-600">{cvData.title}</p>
+                <p className="mt-1 text-slate-600">{cvData.title}</p>
               </div>
             </div>
 
