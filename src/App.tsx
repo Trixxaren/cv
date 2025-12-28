@@ -77,20 +77,20 @@ export default function App() {
 
           {/* Erfarenhet */}
           <section className="mb-8">
-            <SectionTitle>Erfarenhet</SectionTitle>
+            <SectionTitle>{t.experience}</SectionTitle>
             <Timeline items={cvData.experience} />
           </section>
 
           {/* Utbildning */}
           <section className="mb-8">
-            <SectionTitle>Utbildning</SectionTitle>
+            <SectionTitle>{t.education}</SectionTitle>
             <Timeline items={cvData.education} />
           </section>
 
           {/* Skills */}
           <section className="grid gap-6 md:grid-cols-2">
             <div>
-              <SectionTitle>Tekniska färdigheter</SectionTitle>
+              <SectionTitle>{t.skillsTech}</SectionTitle>
               <ul className="mt-3 list-disc pl-5 text-sm text-slate-800">
                 {cvData.techSkills.map((s) => (
                   <li key={s}>{s}</li>
@@ -99,7 +99,7 @@ export default function App() {
             </div>
 
             <div>
-              <SectionTitle>Övriga styrkor</SectionTitle>
+              <SectionTitle>{t.skillsSoft}</SectionTitle>
               <ul className="mt-3 list-disc pl-5 text-sm text-slate-800">
                 {cvData.softSkills.map((s) => (
                   <li key={s}>{s}</li>
