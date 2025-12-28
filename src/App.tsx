@@ -2,20 +2,32 @@
 import { cvData } from "./cvData";
 import { SectionTitle } from "./components/SectionTitle";
 import { Timeline } from "./components/Timeline";
+import { useState } from "react";
+import { translations, type Language } from "./i18n";
 
 export default function App() {
   const handlePrint = () => window.print();
 
+  const [lang, setLang] = useState<Language>("sv");
+
+  const t = translations[lang];
+
   return (
     <div className="min-h-screen bg-slate-900 px-4 py-10 print:bg-white">
       <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
-        {/* Actions */}
-        <div className="no-print flex justify-end">
+        <div className="no-print flex gap-2 justify-end">
+          <button
+            onClick={() => setLang(lang === "sv" ? "en" : "sv")}
+            className="rounded-full border border-slate-300 px-4 py-2 text-sm text-slate-700 hover:bg-slate-100"
+          >
+            {lang === "sv" ? "English" : "Svenska"}
+          </button>
+
           <button
             onClick={handlePrint}
-            className="rounded-full bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-teal-700 active:translate-y-[1px]"
+            className="rounded-full bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-teal-700"
           >
-            Ladda ner som PDF
+            {t.download}
           </button>
         </div>
 
@@ -57,7 +69,7 @@ export default function App() {
 
           {/* Profil */}
           <section className="mb-8">
-            <SectionTitle>Profil</SectionTitle>
+            <SectionTitle>{t.profile}</SectionTitle>
             <p className="mt-2 text-sm leading-6 text-slate-800">
               {cvData.profileText}
             </p>
@@ -99,9 +111,9 @@ export default function App() {
           {/* Footer / signatur */}
           <footer className="mt-12 border-t border-slate-200 pt-4 text-center">
             <p className="text-[11px] text-slate-400">
-              CV Designed &amp; built by{" "}
+              {t.footer}{" "}
               <span className="font-medium text-slate-500">{cvData.name}</span>{" "}
-              using{" "}
+              {t.using}{" "}
               <span className="font-medium text-slate-500">TypeScript</span>
             </p>
           </footer>
