@@ -31,13 +31,13 @@ export const cvData: CvData = {
   title: "Frontend-utvecklare",
   contact: {
     location: "Stockholm, Sverige",
-    email: "robin@example.com",
-    phone: "070-000 00 00",
-    linkedin: "linkedin.com/in/robinvikstrom",
-    github: "github.com/robinvikstrom",
+    email: "robin.m.e.vikstrom@gmail.com",
+    phone: "070-947 66 30",
+    linkedin: "https://www.linkedin.com/in/robin-vikstr%C3%B6m-9959b6169/",
+    github: "https://github.com/Trixxaren",
   },
   profileText:
-    "Nyfiken frontend-utvecklare som gillar att bygga tydliga, enkla och användarvänliga gränssnitt. Van vid React, TypeScript och moderna verktyg som Vite och Tailwind. Brinner för att lära mig mer och bygga projekt som faktiskt används.",
+    "Nyfiken frontend-utvecklare som gillar att bygga tydliga, enkla och användarvänliga gränssnitt. Van vid React, TypeScript och moderna verktyg som Vite och Tailwind. Brinner för att lära mig mer och bygga projekt som faktiskt används. Nyfiken frontend-utvecklare som gillar att bygga tydliga, enkla och användarvänliga gränssnitt. Van vid React, TypeScript och moderna verktyg som Vite och Tailwind. Brinner för att lära mig mer och bygga projekt som faktiskt används.",
   experience: [
     {
       title: "Frontend-student / Projekt",
