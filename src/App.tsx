@@ -47,13 +47,13 @@ export default function App() {
   const emailHref = `mailto:${cvData.contact.email}`;
 
   return (
-    <div className="min-h-screen bg-slate-900 px-4 py-10 print:bg-white">
-      <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
+    <div className="min-h-screen bg-slate-950 px-4 py-10 print:bg-white print:px-0 print:py-0">
+      <div className="mx-auto flex w-full max-w-4xl flex-col gap-4 print:max-w-none print:gap-0">
         {/* Actions */}
         <div className="no-print flex justify-end gap-2">
           <button
             onClick={() => setLang(lang === "sv" ? "en" : "sv")}
-            className="rounded-full border border-slate-300 px-4 py-2 text-sm text-slate-700 hover:bg-slate-100"
+            className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm text-slate-800 shadow-sm hover:bg-slate-50 active:translate-y-[1px]"
           >
             {lang === "sv" ? "English" : "Svenska"}
           </button>
@@ -67,130 +67,132 @@ export default function App() {
         </div>
 
         {/* CV Page */}
-        <main className="relative rounded-2xl bg-white p-6 shadow-2xl md:p-10 print:rounded-none print:shadow-none">
+        <main className="relative rounded-2xl bg-white p-6 shadow-2xl md:p-10 print:rounded-none print:p-8 print:shadow-none">
           {/* Header */}
-          <header className="flex flex-col gap-8 pt-4 sm:flex-row sm:items-start">
-            {/* Vänster: profil */}
-            <div className="flex-1">
-              {/* Rad: bild + namn/roll */}
+          <header className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between print:flex-row print:items-start print:justify-between">
+            {/* Left: profile */}
+            <div className="min-w-0 flex-1">
               <div className="flex items-center gap-4">
                 <img
                   src="/profile.jpg"
                   alt={`${cvData.name} profilbild`}
-                  className="h-28 w-28 rounded-full object-cover border-2 border-slate-200"
+                  className="h-24 w-24 shrink-0 rounded-full border border-slate-200 object-cover md:h-28 md:w-28"
                 />
 
                 <div className="min-w-0">
-                  <h1 className="text-3xl font-bold tracking-tight text-slate-900">
+                  <h1 className="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
                     {cvData.name}
                   </h1>
-                  <p className="mt-1 text-slate-600">{cvData.title}</p>
+                  <p className="mt-1 text-sm font-medium text-slate-600 md:text-base">
+                    {cvData.title}
+                  </p>
                 </div>
               </div>
 
-              {/* Profiltext */}
-              <p className="mt-4 max-w-md text-sm leading-6 text-slate-700">
+              <p className="mt-4 max-w-xl text-sm leading-6 text-slate-700">
                 {cvData.profileText}
               </p>
             </div>
 
-            {/* Höger: kontakt (ikon+label över värdet) */}
-            <aside className="ml-auto w-full max-w-[240px] text-sm text-slate-700">
-              <div className="space-y-4">
-                {/* Address */}
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <FaHome className="text-slate-400" />
-                    <span className="font-medium text-slate-600">
-                      {contactLabels.address}
-                    </span>
+            {/* Right: contact card */}
+            <aside className="w-full md:max-w-65 md:shrink-0 print:w-65 print:shrink-0">
+              <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4 print:bg-white">
+                <div className="space-y-4 text-sm">
+                  {/* Address */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaHome className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.address}
+                      </span>
+                    </div>
+                    <p className="mt-1 wrap-break-words text-slate-800">
+                      {cvData.contact.location}
+                    </p>
                   </div>
-                  <p className="mt-1 break-words text-slate-800">
-                    {cvData.contact.location}
-                  </p>
-                </div>
 
-                {/* Email (måste synas helt) */}
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <FaEnvelope className="text-slate-400" />
-                    <span className="font-medium text-slate-600">
-                      {contactLabels.email}
-                    </span>
+                  {/* Email (måste synas helt) */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaEnvelope className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.email}
+                      </span>
+                    </div>
+                    <a
+                      href={emailHref}
+                      className="mt-1 block wrap-break-words text-slate-800 underline-offset-4 hover:underline"
+                    >
+                      {cvData.contact.email}
+                    </a>
                   </div>
-                  <a
-                    href={emailHref}
-                    className="mt-1 block break-words text-slate-800 hover:underline underline-offset-4"
-                  >
-                    {cvData.contact.email}
-                  </a>
-                </div>
 
-                {/* Phone */}
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <FaPhoneAlt className="text-slate-400" />
-                    <span className="font-medium text-slate-600">
-                      {contactLabels.phone}
-                    </span>
+                  {/* Phone */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaPhoneAlt className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.phone}
+                      </span>
+                    </div>
+                    <a
+                      href={phoneHref}
+                      className="mt-1 block wrap-break-words text-slate-800 underline-offset-4 hover:underline"
+                    >
+                      {cvData.contact.phone}
+                    </a>
                   </div>
-                  <a
-                    href={phoneHref}
-                    className="mt-1 block break-words text-slate-800 hover:underline underline-offset-4"
-                  >
-                    {cvData.contact.phone}
-                  </a>
-                </div>
 
-                {/* GitHub */}
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <FaGithub className="text-slate-400" />
-                    <span className="font-medium text-slate-600">
-                      {contactLabels.github}
-                    </span>
+                  {/* GitHub */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaGithub className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.github}
+                      </span>
+                    </div>
+                    <a
+                      href={githubHref}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block wrap-break-words text-slate-800 underline-offset-4 hover:underline"
+                    >
+                      {cvData.contact.github}
+                    </a>
                   </div>
-                  <a
-                    href={githubHref}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-1 block break-words text-slate-800 hover:underline underline-offset-4"
-                  >
-                    {cvData.contact.github}
-                  </a>
-                </div>
 
-                {/* LinkedIn */}
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <FaLinkedin className="text-slate-400" />
-                    <span className="font-medium text-slate-600">
-                      {contactLabels.linkedin}
-                    </span>
+                  {/* LinkedIn */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaLinkedin className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.linkedin}
+                      </span>
+                    </div>
+                    <a
+                      href={linkedinHref}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block wrap-break-words text-slate-800 underline-offset-4 hover:underline"
+                    >
+                      {cvData.contact.linkedin}
+                    </a>
                   </div>
-                  <a
-                    href={linkedinHref}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-1 block break-words text-slate-800 hover:underline underline-offset-4"
-                  >
-                    {cvData.contact.linkedin}
-                  </a>
                 </div>
               </div>
             </aside>
           </header>
 
           {/* Divider */}
-          <hr className="mt-5 mb-4 border-slate-200" />
+          <hr className="my-6 border-slate-200" />
 
-          {/* Erfarenhet */}
+          {/* Experience */}
           <section className="mb-8">
             <SectionTitle>{t.experience}</SectionTitle>
             <Timeline items={cvData.experience} />
           </section>
 
-          {/* Utbildning */}
+          {/* Education */}
           <section className="mb-8">
             <SectionTitle>{t.education}</SectionTitle>
             <Timeline items={cvData.education} />
@@ -200,7 +202,7 @@ export default function App() {
           <section className="grid gap-6 md:grid-cols-2">
             <div>
               <SectionTitle>{t.skillsTech}</SectionTitle>
-              <ul className="mt-3 list-disc pl-5 text-sm text-slate-800">
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-800">
                 {cvData.techSkills.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
@@ -209,7 +211,7 @@ export default function App() {
 
             <div>
               <SectionTitle>{t.skillsSoft}</SectionTitle>
-              <ul className="mt-3 list-disc pl-5 text-sm text-slate-800">
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-800">
                 {cvData.softSkills.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
@@ -217,8 +219,8 @@ export default function App() {
             </div>
           </section>
 
-          {/* Footer / signatur */}
-          <footer className="mt-12 border-t border-slate-200 pt-4 text-center">
+          {/* Footer / signatur (minimal igen) */}
+          <footer className="mt-10 border-t border-slate-200 pt-4 text-center">
             <p className="text-[11px] text-slate-400">
               {t.footer}{" "}
               <span className="font-medium text-slate-500">{cvData.name}</span>{" "}
