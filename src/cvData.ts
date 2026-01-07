@@ -37,7 +37,7 @@ export const cvData: CvData = {
     github: "https://github.com/Trixxaren",
   },
   profileText:
-    "Nyfiken frontend-utvecklare som gillar att bygga tydliga, enkla och användarvänliga gränssnitt. Van vid React, TypeScript och moderna verktyg som Vite och Tailwind. Brinner för att lära mig mer och bygga projekt som faktiskt används. Nyfiken frontend-utvecklare som gillar att bygga tydliga, enkla och användarvänliga gränssnitt. Van vid React, TypeScript och moderna verktyg som Vite och Tailwind. Brinner för att lära mig mer och bygga projekt som faktiskt används.",
+    "Frontendutvecklare med bakgrund inom marknadsföring, sälj och byggbranschen. Studerar Front-End Development på Jensen YH och bygger aktivt teknisk kompetens inom HTML, CSS, JavaScript, TypeScript, React, Next.js och Tailwind CSS, med dagligt arbete i Git/GitHub och Figma, Tidigare Key Account Manager på Viaplay Group Radio, med ansvar för strategiska samarbeten och kampanjer för några av Sveriges största företag. Jag är lösningsorienterad, kommunikativ och driven av att kombinera teknik med affärsnytta.",
   experience: [
     {
       title: "Frontend-student / Projekt",

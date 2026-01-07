@@ -22,14 +22,14 @@ export default function App() {
     lang === "sv"
       ? {
           address: "Adress",
-          email: "Email",
+          email: "E-post",
           phone: "Telefon",
           linkedin: "LinkedIn",
           github: "GitHub",
         }
       : {
           address: "Address",
-          email: "Email",
+          email: "E-mail",
           phone: "Phone",
           linkedin: "LinkedIn",
           github: "GitHub",
@@ -90,7 +90,7 @@ export default function App() {
               </div>
 
               <p className="mt-4 max-w-xl text-sm leading-6 text-slate-700">
-                {cvData.profileText}
+                {t.profileText}
               </p>
             </div>
 
