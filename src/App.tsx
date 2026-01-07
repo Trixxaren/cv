@@ -203,7 +203,7 @@ export default function App() {
             <div>
               <SectionTitle>{t.skillsTech}</SectionTitle>
               <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-800">
-                {cvData.techSkills.map((s) => (
+                {t.techSkills.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
               </ul>
@@ -212,7 +212,7 @@ export default function App() {
             <div>
               <SectionTitle>{t.skillsSoft}</SectionTitle>
               <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-800">
-                {cvData.softSkills.map((s) => (
+                {t.softSkills.map((s) => (
                   <li key={s}>{s}</li>
                 ))}
               </ul>

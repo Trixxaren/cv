@@ -22,8 +22,6 @@ export type CvData = {
   profileText: string;
   experience: CvEntry[];
   education: CvEntry[];
-  techSkills: string[];
-  softSkills: string[];
 };
 
 export const cvData: CvData = {
@@ -80,18 +78,5 @@ export const cvData: CvData = {
         "Projektarbete med Git och versionshantering.",
       ],
     },
-  ],
-  techSkills: [
-    "JavaScript, TypeScript",
-    "React, Vite",
-    "HTML, CSS, Tailwind",
-    "Git, GitHub",
-    "REST API, JSON",
-  ],
-  softSkills: [
-    "Nyfiken och lär mig snabbt",
-    "Strukturerad och noggrann",
-    "Tydlig kommunikation",
-    "Gillar att bygga projekt",
   ],
 };
