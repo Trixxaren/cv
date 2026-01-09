@@ -52,9 +52,9 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
 
     experience: [
       {
-        title: "Frontend Utvecklare",
+        title: "Frontend Utvecklare (praktik)",
         subtitle: "Sprinto AB",
-        dates: "nov 2025 – Pågående",
+        dates: "nov 2025 – pågående",
         bullets: [
           "Utvecklar plattformen CrossRoads i Next.js, med fokus på användarvänliga och skalbara gränssnitt.",
           "Arbetar i team enligt Scrum, med gemensam planering, utveckling och uppföljning.",
@@ -142,8 +142,14 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
         subtitle: "Jensen Yrkeshögskola",
         dates: "aug 2024 – juni 2026",
         bullets: [
-          "Fokus på React, TypeScript, API:er, UI/UX.",
-          "Projektarbete med Git och versionshantering.",
+          "Utvecklar moderna och responsiva webbapplikationer med JavaScript, TypeScript, React, Vite och Tailwind, både individuellt och i team",
+          "Arbetar med UX/UI, interaktionsdesign och användarupplevelse, från idé och prototyp till färdig implementation",
+          "Genomför projekt enligt agila arbetssätt (Scrum), inklusive planering, implementation, testning och iteration",
+          "Versionshantering och kodsamarbete via Git och GitHub i pågående projekt",
+          "Bygger och vidareutvecklar egna och gemensamma projekt, såsom receptappar, quiz-SPA:er, chattapplikationer, komponentbibliotek",
+          "Utvecklar egna frontend projekt utanför studierna, inklusive detta CV och andra webbapplikationer",
+          "Använder Node.js, npm, API-integrationer och DevTools för utveckling, felsökning och kvalitetssäkring",
+          "Arbetar strukturerat med testning, paketering, leverans och uppföljning som del av utbildningen",
         ],
       },
       {
@@ -151,18 +157,16 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
         subtitle: "Arndts Sales Academy",
         dates: "aug 2018 – dec 2018",
         bullets: [
-          "Fokus på React, TypeScript, API:er, UI/UX.",
-          "Projektarbete med Git och versionshantering.",
+          "Utbildning inom försäljning och personlig utveckling",
+          "Bokade värderingsmöten åt Bjurforss med dokumenterat starka resultat",
+          "Arbete genom hela säljprocessen med fokus på analys och förbättring",
         ],
       },
       {
         title: "Byggnadsprogrammet",
         subtitle: "Bolandsgymnasiet",
         dates: "2009 – 2012",
-        bullets: [
-          "Fokus på React, TypeScript, API:er, UI/UX.",
-          "Projektarbete med Git och versionshantering.",
-        ],
+        bullets: ["Byggnadsprogrammet med inriktning murare."],
       },
     ],
 
@@ -209,46 +213,121 @@ I have experience with customer and budget responsibility and am used to analyzi
 
     experience: [
       {
-        title: "Sprinto",
-        subtitle: "Frontend Utvecklare",
-        dates: "2025 - nu",
+        title: "Frontend Developer (Internship)",
+        subtitle: "Sprinto AB",
+        dates: "Nov 2025 – Present",
         bullets: [
-          "Built React apps (e.g., chat app, e-learning site).",
-          "Worked with TypeScript, Tailwind, and APIs.",
-          "Git/GitHub workflows with branches and pull requests.",
+          "Developing the CrossRoads platform in Next.js, with a focus on user-friendly and scalable interfaces.",
+          "Working in a team according to Scrum, including joint planning, development, and follow-up.",
+          "Version control and collaboration via Git and GitHub throughout the development process.",
         ],
       },
       {
-        title: "Sales Representative",
-        subtitle: "Example Company AB, Stockholm",
-        dates: "2021 – 2022",
+        title: "Key Account Manager",
+        subtitle: "Viaplay Group Radio AB",
+        dates: "Aug 2022 – Jul 2024",
         bullets: [
-          "Owned the full sales process: needs analysis, quote, negotiation, agreement.",
-          "Built and maintained customer relationships (B2B/B2C).",
-          "Worked towards clear targets with structured follow-up.",
+          "Sales role with customer and budget responsibility for national clients across both B2B and B2C.",
+          "Full ownership of the sales process: prospecting, needs analysis, presentation, negotiation, contracts, execution, and follow-up.",
+          "Worked independently with own customer portfolio and budget, as well as in teams with shared goals.",
+          "Analysis of customer data, business results, and campaign performance for continuous improvement.",
+          "Strong focus on long-term relationship building and value-driven partnerships.",
         ],
       },
       {
-        title: "Previous Experience",
-        subtitle: "Add your role / workplace here",
-        dates: "YYYY – YYYY",
+        title: "Car Sales Representative",
+        subtitle: "J Bil AB",
+        dates: "May 2021 – Aug 2022",
         bullets: [
-          "Short bullet about responsibility/results.",
-          "One more point (preferably measurable).",
-          "A point highlighting collaboration or problem-solving.",
+          "Sales role with customer and budget responsibility for both B2B and B2C clients.",
+          "Responsible for the full sales process from needs analysis to follow-up.",
+          "Brand responsibility for Peugeot, including team training and budget follow-up.",
+          "Collaboration with colleagues and management to ensure quality, business results, and customer satisfaction.",
         ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "Retriever AB",
+        dates: "Jan 2021 – May 2021",
+        bullets: [
+          "Sales role with customer and budget responsibility for national B2B clients.",
+          "Responsible for the entire sales process from prospecting to follow-up.",
+          "Collaboration with management and internal teams in business development.",
+          "Focus on long-term customer relationships.",
+        ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "Viaplay Group Radio AB",
+        dates: "Apr 2019 – Jan 2021",
+        bullets: [
+          "Sales role with customer and budget responsibility for local B2B and B2C clients.",
+          "Responsible for the full sales process from prospecting to follow-up.",
+          "Collaboration with marketing and management in sales initiatives.",
+          "Independent work with own customer portfolio.",
+        ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "MillionMind AB",
+        dates: "Dec 2018 – Apr 2019",
+        bullets: [
+          "Sales role with customer and budget responsibility for national B2B and B2C clients.",
+          "Responsible for the entire sales process from prospecting to follow-up.",
+          "Collaboration with marketing, customer service, and management in sales activities.",
+          "Strong focus on long-term relationship building.",
+        ],
+      },
+      {
+        title: "Bricklayer",
+        subtitle: "Stockholms Puts & Bygg AB",
+        dates: "Feb 2014 – Apr 2018",
+        bullets: [
+          "Plastering and façade work within the construction and masonry industry.",
+          "Team lead responsibility on both small and large construction projects.",
+          "Collaboration with colleagues and project management to ensure on-time delivery.",
+          "Responsibility for planning, execution, and quality in daily work.",
+        ],
+      },
+      {
+        title: "Bricklayer",
+        subtitle: "Henriks Fasad & Kakel AB",
+        dates: "Aug 2012 – Jan 2014",
+        bullets: ["Newly graduated bricklayer (apprentice)."],
       },
     ],
 
     education: [
       {
-        title: "Frontend Developer (Higher Vocational Education)",
-        subtitle: "Jensen Yrkeshögskola",
-        dates: "2024 – 2026",
+        title: "Frontend Developer",
+        subtitle: "Jensen Higher Vocational Education",
+        dates: "Aug 2024 – Jun 2026",
         bullets: [
-          "Focus on React, TypeScript, APIs, UI/UX.",
-          "Project work with Git and version control.",
+          "Developing modern and responsive web applications using JavaScript, TypeScript, React, Vite, and Tailwind, both individually and in teams.",
+          "Working with UX/UI, interaction design, and user experience from idea and prototype to final implementation.",
+          "Carrying out projects according to agile methodologies (Scrum), including planning, implementation, testing, and iteration.",
+          "Version control and code collaboration via Git and GitHub in ongoing projects.",
+          "Building and further developing individual and team-based projects such as recipe apps, quiz SPAs, chat applications, and component libraries.",
+          "Developing personal frontend projects outside of studies, including this CV and other web applications.",
+          "Using Node.js, npm, API integrations, and DevTools for development, debugging, and quality assurance.",
+          "Working in a structured manner with testing, packaging, delivery, and follow-up as part of the education.",
         ],
+      },
+      {
+        title: "Sales & Personal Development",
+        subtitle: "Arndts Sales Academy",
+        dates: "Aug 2018 – Dec 2018",
+        bullets: [
+          "Education focused on sales and personal development.",
+          "Booked property valuation meetings for Bjurfors with documented strong results.",
+          "Worked throughout the entire sales process with a focus on analysis and improvement.",
+        ],
+      },
+      {
+        title: "Construction Program",
+        subtitle: "Bolandsgymnasiet",
+        dates: "2009 – 2012",
+        bullets: ["Construction program with specialization in masonry."],
       },
     ],
 
