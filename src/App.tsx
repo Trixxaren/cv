@@ -46,6 +46,11 @@ export default function App() {
   const phoneHref = `tel:${cvData.contact.phone.replace(/\s/g, "")}`;
   const emailHref = `mailto:${cvData.contact.email}`;
 
+  const profileAlt =
+    lang === "sv"
+      ? `${cvData.name} profilbild`
+      : `${cvData.name} profile photo`;
+
   return (
     <div className="min-h-screen bg-slate-950 px-4 py-10 print:bg-white print:px-0 print:py-0">
       <div className="mx-auto flex w-full max-w-4xl flex-col gap-4 print:max-w-none print:gap-0">
@@ -53,14 +58,14 @@ export default function App() {
         <div className="no-print flex justify-end gap-2">
           <button
             onClick={() => setLang(lang === "sv" ? "en" : "sv")}
-            className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm text-slate-800 shadow-sm hover:bg-slate-50 active:translate-y-[1px]"
+            className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm text-slate-800 shadow-sm hover:bg-slate-50 active:translate-y-px"
           >
             {lang === "sv" ? "English" : "Svenska"}
           </button>
 
           <button
             onClick={handlePrint}
-            className="rounded-full bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-teal-700 active:translate-y-[1px]"
+            className="rounded-full bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-teal-700 active:translate-y-px"
           >
             {t.download}
           </button>
@@ -75,7 +80,7 @@ export default function App() {
               <div className="flex items-center gap-4">
                 <img
                   src="/profile.jpg"
-                  alt={`${cvData.name} profilbild`}
+                  alt={profileAlt}
                   className="h-24 w-24 shrink-0 rounded-full border border-slate-200 object-cover md:h-28 md:w-28"
                 />
 
@@ -84,12 +89,12 @@ export default function App() {
                     {cvData.name}
                   </h1>
                   <p className="mt-1 text-sm font-medium text-slate-600 md:text-base">
-                    {cvData.title}
+                    {t.title}
                   </p>
                 </div>
               </div>
 
-              <p className="mt-4 max-w-xl text-sm leading-6 text-slate-700">
+              <p className=" max-w-xl text-sm leading-6 text-slate-700 whitespace-pre-line">
                 {t.profileText}
               </p>
             </div>
@@ -111,7 +116,7 @@ export default function App() {
                     </p>
                   </div>
 
-                  {/* Email (måste synas helt) */}
+                  {/* Email */}
                   <div className="min-w-0">
                     <div className="flex items-center gap-2">
                       <FaEnvelope className="shrink-0 text-slate-400" />
@@ -183,20 +188,21 @@ export default function App() {
             </aside>
           </header>
 
-          {/* Divider */}
           <hr className="my-6 border-slate-200" />
 
           {/* Experience */}
           <section className="mb-8">
-            <SectionTitle>{t.experience}</SectionTitle>
-            <Timeline items={cvData.experience} />
+            <SectionTitle>{t.experienceLabel}</SectionTitle>
+            <Timeline items={t.experience} />
           </section>
 
           {/* Education */}
           <section className="mb-8">
-            <SectionTitle>{t.education}</SectionTitle>
-            <Timeline items={cvData.education} />
+            <SectionTitle>{t.educationLabel}</SectionTitle>
+            <Timeline items={t.education} />
           </section>
+
+          <hr className="my-6 border-slate-200" />
 
           {/* Skills */}
           <section className="grid gap-6 md:grid-cols-2">
@@ -219,7 +225,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* Footer / signatur (minimal igen) */}
           <footer className="mt-10 border-t border-slate-200 pt-4 text-center">
             <p className="text-[11px] text-slate-400">
               {t.footer}{" "}

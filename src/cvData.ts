@@ -8,25 +8,13 @@ export type CvContact = {
   github: string;
 };
 
-export type CvEntry = {
-  title: string;
-  subtitle: string;
-  dates: string;
-  bullets: string[];
-};
-
 export type CvData = {
   name: string;
-  title: string;
   contact: CvContact;
-  profileText: string;
-  experience: CvEntry[];
-  education: CvEntry[];
 };
 
 export const cvData: CvData = {
   name: "Robin Vikström",
-  title: "Frontend-utvecklare",
   contact: {
     location: "Stockholm, Sverige",
     email: "robin.m.e.vikstrom@gmail.com",
@@ -34,49 +22,4 @@ export const cvData: CvData = {
     linkedin: "https://www.linkedin.com/in/robin-vikstr%C3%B6m-9959b6169/",
     github: "https://github.com/Trixxaren",
   },
-  profileText:
-    "Frontendutvecklare med bakgrund inom marknadsföring, sälj och byggbranschen. Studerar Front-End Development på Jensen YH och bygger aktivt teknisk kompetens inom HTML, CSS, JavaScript, TypeScript, React, Next.js och Tailwind CSS, med dagligt arbete i Git/GitHub och Figma, Tidigare Key Account Manager på Viaplay Group Radio, med ansvar för strategiska samarbeten och kampanjer för några av Sveriges största företag. Jag är lösningsorienterad, kommunikativ och driven av att kombinera teknik med affärsnytta.",
-  experience: [
-    {
-      title: "Frontend-student / Projekt",
-      subtitle: "YH-utbildning – Projektarbete",
-      dates: "2024 – 2025",
-      bullets: [
-        "Byggt React-appar (t.ex. chattapp, e-learning-sida).",
-        "Jobbat med TypeScript, Tailwind och API:er.",
-        "Git/GitHub-flöden med branches och pull requests.",
-      ],
-    },
-    {
-      title: "Säljare",
-      subtitle: "Exempelbolag AB, Stockholm",
-      dates: "2021 – 2022",
-      bullets: [
-        "Ansvar för hela säljprocessen: behov, offert, förhandling, avtal.",
-        "Byggde och vårdade kundrelationer (B2B/B2C).",
-        "Arbetade mot tydliga mål och uppföljning.",
-      ],
-    },
-    {
-      title: "Tidigare erfarenhet",
-      subtitle: "Fyll i din roll / arbetsplats här",
-      dates: "ÅÅÅÅ – ÅÅÅÅ",
-      bullets: [
-        "Kort punkt om ansvar/resultat.",
-        "En punkt till (gärna mätbart om möjligt).",
-        "En punkt som visar samarbete eller problemlösning.",
-      ],
-    },
-  ],
-  education: [
-    {
-      title: "Frontend-utvecklare (YH)",
-      subtitle: "Namn på skola",
-      dates: "2024 – 2026",
-      bullets: [
-        "Fokus på React, TypeScript, API:er, UI/UX.",
-        "Projektarbete med Git och versionshantering.",
-      ],
-    },
-  ],
 };
