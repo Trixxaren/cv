@@ -52,42 +52,113 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
 
     experience: [
       {
-        title: "Frontend-student / Projekt",
-        subtitle: "YH-utbildning – Projektarbete",
-        dates: "2024 – 2025",
+        title: "Frontend Utvecklare",
+        subtitle: "Sprinto AB",
+        dates: "nov 2025 – Pågående",
         bullets: [
-          "Byggt React-appar (t.ex. chattapp, e-learning-sida).",
-          "Jobbat med TypeScript, Tailwind och API:er.",
-          "Git/GitHub-flöden med branches och pull requests.",
+          "Utvecklar plattformen CrossRoads i Next.js, med fokus på användarvänliga och skalbara gränssnitt.",
+          "Arbetar i team enligt Scrum, med gemensam planering, utveckling och uppföljning.",
+          "Versionshantering och samarbete via Git och GitHub genom hela utvecklingsprocessen.",
         ],
       },
       {
-        title: "Säljare",
-        subtitle: "Exempelbolag AB, Stockholm",
-        dates: "2021 – 2022",
+        title: "Key Account Manager",
+        subtitle: "Viaplay Group Radio AB",
+        dates: "aug 2022 – juli 2024",
         bullets: [
-          "Ansvar för hela säljprocessen: behov, offert, förhandling, avtal.",
-          "Byggde och vårdade kundrelationer (B2B/B2C).",
-          "Arbetade mot tydliga mål och uppföljning.",
+          "Säljroll med kund- och budgetansvar för nationella kunder inom både B2B och B2C",
+          "Ansvar för hela säljprocessen: prospektering, behovsanalys, presentation, förhandling, avtal, genomförande och uppföljning",
+          "Arbetade självständigt med egen kundportfölj och budget, samt i team med gemensamma mål",
+          "Analys av kunddata, affärsresultat och kampanjutfall för kontinuerlig förbättring",
+          "Fokus på långsiktigt relationsbyggande och värdeskapande samarbeten",
         ],
       },
       {
-        title: "Tidigare erfarenhet",
-        subtitle: "Fyll i din roll / arbetsplats här",
-        dates: "ÅÅÅÅ – ÅÅÅÅ",
+        title: "Bilförsäljare",
+        subtitle: "J Bil AB",
+        dates: "maj 2021 – aug 2022",
         bullets: [
-          "Kort punkt om ansvar/resultat.",
-          "En punkt till (gärna mätbart om möjligt).",
-          "En punkt som visar samarbete eller problemlösning.",
+          "Säljroll med kund och budgetansvar för B2B och B2C kunder",
+          "Ansvar för hela säljprocessen från behovsanalys till uppföljning",
+          "Eget märkesansvar för Peugeot med teamutbildning och budgetuppföljning",
+          "Samarbete med kollegor och ledning för att säkerställa kvalitet, affärsresultat och kundnöjdhet",
         ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "Retriever AB",
+        dates: "jan 2021 – maj 2021",
+        bullets: [
+          "Säljroll med kund och budgetansvar för nationella B2B kunder",
+          "Ansvar för hela säljprocessen från prospektering till uppföljning",
+          "Samarbete med ledning och interna team i affärsarbetet",
+          "Fokus på långsiktiga kundrelationer",
+        ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "Viaplay Group Radio AB",
+        dates: "apr 2019 – jan 2021",
+        bullets: [
+          "Säljroll med kund och budgetansvar för lokala B2B och B2C kunder",
+          "Ansvar för hela säljprocessen från prospektering till uppföljning",
+          "Samarbete med marknad och ledning i affärsarbetet",
+          "Självständigt arbete med egen kundportfölj",
+        ],
+      },
+      {
+        title: "Account Manager",
+        subtitle: "MillionMind AB",
+        dates: "dec 2018 – apr 2019",
+        bullets: [
+          "Säljroll med kund och budgetansvar för nationella B2B och B2C kunder",
+          "Ansvar för hela säljprocessen från prospektering till uppföljning",
+          "Samarbete med marknad, kundservice och ledning i affärsarbetet",
+          "Långsiktigt relationsfokus",
+        ],
+      },
+      {
+        title: "Murare",
+        subtitle: "Stockholms Puts & Bygg AB",
+        dates: "feb 2014 – apr 2018",
+        bullets: [
+          "Puts och fasadarbeten inom bygg och murarbranschen",
+          "Teamledaransvar på både mindre och större byggprojekt",
+          "Samarbete med kollegor och projektledning för att säkerställa leverans enligt tidsplan",
+          "Ansvar för planering, genomförande och kvalitet i det dagliga arbetet",
+        ],
+      },
+      {
+        title: "Murare",
+        subtitle: "Henriks Fasad & Kakel AB",
+        dates: "aug 2012 – jan 2014",
+        bullets: ["Nyexaminerad murare (lärling)"],
       },
     ],
 
     education: [
       {
-        title: "Frontend-utvecklare (YH)",
+        title: "Frontend-utvecklare",
         subtitle: "Jensen Yrkeshögskola",
-        dates: "2024 – 2026",
+        dates: "aug 2024 – juni 2026",
+        bullets: [
+          "Fokus på React, TypeScript, API:er, UI/UX.",
+          "Projektarbete med Git och versionshantering.",
+        ],
+      },
+      {
+        title: "Sälj & Personlig utveckling",
+        subtitle: "Arndts Sales Academy",
+        dates: "aug 2018 – dec 2018",
+        bullets: [
+          "Fokus på React, TypeScript, API:er, UI/UX.",
+          "Projektarbete med Git och versionshantering.",
+        ],
+      },
+      {
+        title: "Byggnadsprogrammet",
+        subtitle: "Bolandsgymnasiet",
+        dates: "2009 – 2012",
         bullets: [
           "Fokus på React, TypeScript, API:er, UI/UX.",
           "Projektarbete med Git och versionshantering.",
@@ -138,9 +209,9 @@ I have experience with customer and budget responsibility and am used to analyzi
 
     experience: [
       {
-        title: "Frontend Student / Projects",
-        subtitle: "YH Program – Project Work",
-        dates: "2024 – 2025",
+        title: "Sprinto",
+        subtitle: "Frontend Utvecklare",
+        dates: "2025 - nu",
         bullets: [
           "Built React apps (e.g., chat app, e-learning site).",
           "Worked with TypeScript, Tailwind, and APIs.",
