@@ -346,10 +346,11 @@ I have experience with customer and budget responsibility and am used to analyzi
     ],
 
     softSkills: [
-      "Solution-oriented and curious",
+      "initiative and proactive",
+      "Solution oriented and curious",
       "Goal-driven doer with a passion for growth",
       "Strong drive to create value and build relationships both internally and externally",
-      "Thrives in team environments while also being self-driven and proactive",
+      "Thrives in team environments while also being self driven",
     ],
   },
 } satisfies Record<Language, Translation>;
