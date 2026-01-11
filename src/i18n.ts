@@ -176,10 +176,10 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
       "HTML, CSS, Tailwind CSS",
       "Node.js, npm",
       "Git, GitHub",
-      "REST APIs, JSON",
-      "API integration & authentication (REST, JWT, sessions)",
-      "Responsive & mobile-first design",
-      "Accessibility (semantic HTML)",
+      "REST-API:er, JSON",
+      "API-integration och autentisering (REST, JWT, sessioner)",
+      "Responsiv design och mobile-first",
+      "Tillgänglighet (semantisk HTML)",
       "Figma, Miro",
     ],
 
@@ -216,7 +216,7 @@ I have experience with customer and budget responsibility and am used to analyzi
       {
         title: "Frontend Developer (Internship)",
         subtitle: "Sprinto AB",
-        dates: "Nov 2025 – Present",
+        dates: "Nov 2025 – present",
         bullets: [
           "Developing the CrossRoads platform in Next.js, with a focus on user-friendly and scalable interfaces.",
           "Working in a team according to Scrum, including joint planning, development, and follow-up.",
