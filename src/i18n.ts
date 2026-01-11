@@ -103,7 +103,7 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
           "Säljroll med kund och budgetansvar för lokala B2B och B2C kunder",
           "Ansvar för hela säljprocessen från prospektering till uppföljning",
           "Samarbete med marknad och ledning i affärsarbetet",
-          "Självständigt arbete med egen kundportfölj",
+          "Arbetade självständigt med egen kundportfölj",
         ],
       },
       {
@@ -184,10 +184,11 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
     ],
 
     softSkills: [
+      "initiativtagande",
       "Lösningsorienterad och nyfiken",
       "Målinriktad doer med passion för utveckling",
       "Starkt driv för att skapa värde samt bygga relationer både internt och externt",
-      "Trivs i team men även självgående och initiativtagande",
+      "Trivs i team men även självgående",
     ],
   },
 
