@@ -43,12 +43,11 @@ export const translations = {
     footer: "Designad & byggd av",
     using: "med",
 
-    title: "Frontend-utvecklare",
+    title: "“CV:t visar erfarenhet. Dialogen visar potential.”",
     profileText: `
-Jag är en lösningsorienterad och nyfiken frontendutvecklare under utbildning, med bakgrund i affärsdrivna roller där ansvar, kommunikation och resultat stått i fokus. Jag studerar Front-End Development på Jensen YH och arbetar med användarvänliga & responsiva lösningar.
+Frontendutvecklare med stark bakgrund inom försäljning och affärsdrivna roller. Jag har arbetat flera år med kund och budgetansvar, behovsanalys och resultatfokus. och tar med mig den erfarenheten in i IT och programmering, där jag idag studerar Frontend på Jensen YH.
 
-Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, samarbeta tvärfunktionellt och omsätta krav till fungerande lösningar. Jag är målinriktad, självgående och trivs i team, med ett starkt driv att utvecklas och skapa värde.
-`,
+Jag drivs av att bygga användarvänliga, responsiva lösningar där teknik möter verkliga affärs och användarbehov. Med förståelse för både kundkrav och utveckling trivs jag mellan affär och kod, Jag är målinriktad, självgående och trivs i team`,
 
     experience: [
       {
@@ -66,7 +65,7 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
         subtitle: "Viaplay Group Radio AB",
         dates: "aug 2022 – juli 2024",
         bullets: [
-          "Säljroll med kund- och budgetansvar för nationella kunder inom både B2B och B2C",
+          "Säljroll med kund och budgetansvar för nationella B2B kunder",
           "Ansvar för hela säljprocessen: prospektering, behovsanalys, presentation, förhandling, avtal, genomförande och uppföljning",
           "Arbetade självständigt med egen kundportfölj och budget, samt i team med gemensamma mål",
           "Analys av kunddata, affärsresultat och kampanjutfall för kontinuerlig förbättring",
@@ -78,7 +77,7 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
         subtitle: "J Bil AB",
         dates: "maj 2021 – aug 2022",
         bullets: [
-          "Säljroll med kund och budgetansvar för B2B och B2C kunder",
+          "Säljroll med kund och budgetansvar för B2B och B2C kunder, både nytt och begagnat.",
           "Ansvar för hela säljprocessen från behovsanalys till uppföljning",
           "Eget märkesansvar för Peugeot med teamutbildning och budgetuppföljning",
           "Samarbete med kollegor och ledning för att säkerställa kvalitet, affärsresultat och kundnöjdhet",
@@ -206,10 +205,11 @@ Jag har erfarenhet av kund och budgetansvar och är van att analysera behov, sam
     footer: "Designed & built by",
     using: "using",
 
-    title: "Frontend Developer",
-    profileText: `I am a solution oriented and curious frontend developer in training, with a background in businessdriven roles where responsibility, communication, and results have been key. I am studying Front-End Development at Jensen YH and work with userfriendly and responsive solutions.
+    title: "CV shows experience. A conversation reveals potential.",
+    profileText: `Frontend developer with a strong background in sales and business-driven roles.
+I have several years of experience working with customer and budget responsibility, needs analysis, and resultsfocused work, and I bring that experience into IT and programming, where I am currently studying Frontend Development at Jensen YH.
 
-I have experience with customer and budget responsibility and am used to analyzing needs, collaborating crossfunctionally, and turning requirements into working solutions. I am goaldriven, selfmotivated, and thrive in team environments, with a strong drive to grow and create value.
+I am driven by building userfriendly, responsive solutions where technology meets real business and user needs. With an understanding of both customer requirements and development, I thrive at the intersection of business and code. I am goaloriented, selfdriven, and enjoy working in teams.
 `,
 
     experience: [
@@ -218,7 +218,7 @@ I have experience with customer and budget responsibility and am used to analyzi
         subtitle: "Sprinto AB",
         dates: "Nov 2025 – present",
         bullets: [
-          "Developing the CrossRoads platform in Next.js, with a focus on user-friendly and scalable interfaces.",
+          "Developing the CrossRoads platform in Next.js, with a focus on userfriendly and scalable interfaces.",
           "Working in a team according to Scrum, including joint planning, development, and follow-up.",
           "Version control and collaboration via Git and GitHub throughout the development process.",
         ],
@@ -228,8 +228,8 @@ I have experience with customer and budget responsibility and am used to analyzi
         subtitle: "Viaplay Group Radio AB",
         dates: "Aug 2022 – Jul 2024",
         bullets: [
-          "Sales role with customer and budget responsibility for national clients across both B2B and B2C.",
-          "Full ownership of the sales process: prospecting, needs analysis, presentation, negotiation, contracts, execution, and follow-up.",
+          "Sales role with customer and budget responsibility for national B2B clients.",
+          "Full ownership of the sales process. Prospecting, needs analysis, presentation, negotiation, contracts, execution, and follow up.",
           "Worked independently with own customer portfolio and budget, as well as in teams with shared goals.",
           "Analysis of customer data, business results, and campaign performance for continuous improvement.",
           "Strong focus on long-term relationship building and value-driven partnerships.",
@@ -240,9 +240,9 @@ I have experience with customer and budget responsibility and am used to analyzi
         subtitle: "J Bil AB",
         dates: "May 2021 – Aug 2022",
         bullets: [
-          "Sales role with customer and budget responsibility for both B2B and B2C clients.",
-          "Responsible for the full sales process from needs analysis to follow-up.",
-          "Brand responsibility for Peugeot, including team training and budget follow-up.",
+          "Sales role with customer and budget responsibility for both B2B and B2C clients, both new and used cars.",
+          "Responsible for the full sales process from needs analysis to followup.",
+          "Brand responsibility for Peugeot, including team training and budget followup.",
           "Collaboration with colleagues and management to ensure quality, business results, and customer satisfaction.",
         ],
       },
@@ -252,7 +252,7 @@ I have experience with customer and budget responsibility and am used to analyzi
         dates: "Jan 2021 – May 2021",
         bullets: [
           "Sales role with customer and budget responsibility for national B2B clients.",
-          "Responsible for the entire sales process from prospecting to follow-up.",
+          "Responsible for the entire sales process from prospecting to followup.",
           "Collaboration with management and internal teams in business development.",
           "Focus on long-term customer relationships.",
         ],
@@ -263,7 +263,7 @@ I have experience with customer and budget responsibility and am used to analyzi
         dates: "Apr 2019 – Jan 2021",
         bullets: [
           "Sales role with customer and budget responsibility for local B2B and B2C clients.",
-          "Responsible for the full sales process from prospecting to follow-up.",
+          "Responsible for the full sales process from prospecting to followup.",
           "Collaboration with marketing and management in sales initiatives.",
           "Independent work with own customer portfolio.",
         ],
@@ -274,7 +274,7 @@ I have experience with customer and budget responsibility and am used to analyzi
         dates: "Dec 2018 – Apr 2019",
         bullets: [
           "Sales role with customer and budget responsibility for national B2B and B2C clients.",
-          "Responsible for the entire sales process from prospecting to follow-up.",
+          "Responsible for the entire sales process from prospecting to followup.",
           "Collaboration with marketing, customer service, and management in sales activities.",
           "Strong focus on long-term relationship building.",
         ],
