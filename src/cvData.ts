@@ -6,6 +6,7 @@ export type CvContact = {
   phone: string;
   linkedin: string;
   github: string;
+  portfolio: string;
 };
 
 export type CvData = {
@@ -21,5 +22,6 @@ export const cvData: CvData = {
     phone: "070-947 66 30",
     linkedin: "https://www.linkedin.com/in/robin-vikstr%C3%B6m-9959b6169/",
     github: "https://github.com/Trixxaren",
+    portfolio: "https://robinvikstrom.netlify.app/",
   },
 };

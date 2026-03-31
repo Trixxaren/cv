@@ -10,6 +10,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaHome,
+  FaBriefcase,
 } from "react-icons/fa";
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
           phone: "Telefon",
           linkedin: "LinkedIn",
           github: "GitHub",
+          portfolio: "Portfolio",
         }
       : {
           address: "Address",
@@ -33,11 +35,16 @@ export default function App() {
           phone: "Phone",
           linkedin: "LinkedIn",
           github: "GitHub",
+          portfolio: "Portfolio",
         };
 
   const linkedinHref = cvData.contact.linkedin.startsWith("http")
     ? cvData.contact.linkedin
     : `https://${cvData.contact.linkedin}`;
+
+  const portfolioHref = cvData.contact.portfolio.startsWith("http")
+    ? cvData.contact.portfolio
+    : `https://${cvData.contact.portfolio}`;
 
   const githubHref = cvData.contact.github.startsWith("http")
     ? cvData.contact.github
@@ -183,27 +190,41 @@ export default function App() {
                       {cvData.contact.linkedin}
                     </a>
                   </div>
+
+                  {/* Portfolio  */}
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <FaBriefcase className="shrink-0 text-slate-400" />
+                      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        {contactLabels.portfolio}
+                      </span>
+                    </div>
+                    <a
+                      href={portfolioHref}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block wrap-break-words text-slate-800 underline-offset-4 hover:underline"
+                    >
+                      {cvData.contact.portfolio}
+                    </a>
+                  </div>
                 </div>
               </div>
             </aside>
           </header>
 
           <hr className="my-6 border-slate-200" />
-
           {/* Experience */}
           <section className="mb-8">
             <SectionTitle>{t.experienceLabel}</SectionTitle>
             <Timeline items={t.experience} />
           </section>
-
           {/* Education */}
           <section className="mb-8">
             <SectionTitle>{t.educationLabel}</SectionTitle>
             <Timeline items={t.education} />
           </section>
-
           <hr className="my-6 border-slate-200" />
-
           {/* Skills */}
           <section className="grid gap-6 md:grid-cols-2">
             <div>
@@ -224,7 +245,6 @@ export default function App() {
               </ul>
             </div>
           </section>
-
           <footer className="mt-10 border-t border-slate-200 pt-4 text-center">
             <p className="text-[11px] text-slate-400">
               {t.footer}{" "}

@@ -45,9 +45,11 @@ export const translations = {
 
     title: "“CV:t visar erfarenhet. Dialogen visar potential.”",
     profileText: `
-Frontendutvecklare med stark bakgrund inom försäljning och affärsdrivna roller. Jag har arbetat flera år med kund och budgetansvar, behovsanalys och resultatfokus. och tar med mig den erfarenheten in i IT och programmering, där jag idag studerar Frontend på Jensen YH.
+Frontendutvecklare med bakgrund inom försäljning och affärsdrivna roller. Jag studerar idag Frontend Development på Jensen Yrkeshögskola.
 
-Jag drivs av att bygga användarvänliga, responsiva lösningar där teknik möter verkliga affärs och användarbehov. Med förståelse för både kundkrav och utveckling trivs jag mellan affär och kod, Jag är målinriktad, självgående och trivs i team`,
+Tidigare arbetade jag som Key Account Manager på Viaplay Group Radio där jag ansvarade för strategiska samarbeten med några av Sveriges största företag. Erfarenheten gav mig starka färdigheter inom kundansvar, behovsanalys och att driva projekt från idé till resultat.
+
+Jag drivs av att bygga användarvänliga och responsiva webblösningar där teknik möter verkliga affärs- och användarbehov. Med förståelse för både kundperspektiv och utveckling trivs jag i gränslandet mellan affär och teknik.`,
 
     experience: [
       {
@@ -206,11 +208,11 @@ Jag drivs av att bygga användarvänliga, responsiva lösningar där teknik möt
     using: "using",
 
     title: "CV shows experience. A conversation reveals potential.",
-    profileText: `Frontend developer with a strong background in sales and business-driven roles.
-I have several years of experience working with customer and budget responsibility, needs analysis, and resultsfocused work, and I bring that experience into IT and programming, where I am currently studying Frontend Development at Jensen YH.
-
-I am driven by building userfriendly, responsive solutions where technology meets real business and user needs. With an understanding of both customer requirements and development, I thrive at the intersection of business and code. I am goaloriented, selfdriven, and enjoy working in teams.
-`,
+    profileText: `Frontend developer with a background in sales and business-driven roles. I am currently studying Frontend Development at Jensen Yrkeshögskola.
+    
+    Previously, I worked as a Key Account Manager at Viaplay Group Radio, where I was responsible for strategic partnerships with some of Sweden’s largest companies. This experience gave me strong skills in client management, needs analysis, and driving projects from idea to results.
+    
+    I am motivated by building user-friendly and responsive web solutions where technology meets real business and user needs. With an understanding of both the customer perspective and development, I thrive at the intersection of business and technology.`,
 
     experience: [
       {
