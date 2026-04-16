@@ -219,7 +219,7 @@ export const translations = {
       {
         title: "Frontend Developer (Internship)",
         subtitle: "Sprinto AB",
-        dates: "Nov 2025 – present",
+        dates: "Nov 2025 – May 2026",
         bullets: [
           "Developing the CrossRoads platform in Next.js, with a focus on userfriendly and scalable interfaces.",
           "Working in a team according to Scrum, including joint planning, development, and follow-up.",
