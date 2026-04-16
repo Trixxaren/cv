@@ -43,19 +43,17 @@ export const translations = {
     footer: "Designad & byggd av",
     using: "med",
 
-    title: "“CV:t visar erfarenhet. Dialogen visar potential.”",
+    title: "“CV:t visar erfarenhet. Dialogen visar potential”",
     profileText: `
-Frontendutvecklare med bakgrund inom försäljning och affärsdrivna roller. Jag studerar idag Frontend Development på Jensen Yrkeshögskola.
-
-Tidigare arbetade jag som Key Account Manager på Viaplay Group Radio där jag ansvarade för strategiska samarbeten med några av Sveriges största företag. Erfarenheten gav mig starka färdigheter inom kundansvar, behovsanalys och att driva projekt från idé till resultat.
-
-Jag drivs av att bygga användarvänliga och responsiva webblösningar där teknik möter verkliga affärs- och användarbehov. Med förståelse för både kundperspektiv och utveckling trivs jag i gränslandet mellan affär och teknik.`,
+    Med bakgrund inom försäljning och affärsdrivna roller, samt utbildning inom frontendutveckling, har jag byggt en bred kompetens inom både affär och teknik. Tidigare arbetade jag som storkundsansvarig med ansvar för strategiska samarbeten och långsiktiga kundrelationer.
+    
+    Jag kombinerar teknisk förståelse med ett starkt affärsperspektiv och har erfarenhet av att identifiera behov, driva projekt och skapa värde för både kund och verksamhet. Jag trivs i roller där teknik, produkt och affär möts och bidrar gärna hela vägen från idé till resultat.`,
 
     experience: [
       {
         title: "Frontend Utvecklare (praktik)",
         subtitle: "Sprinto AB",
-        dates: "nov 2025 – pågående",
+        dates: "nov 2025 – maj 2026",
         bullets: [
           "Utvecklar plattformen CrossRoads i Next.js, med fokus på användarvänliga och skalbara gränssnitt.",
           "Arbetar i team enligt Scrum, med gemensam planering, utveckling och uppföljning.",
@@ -185,7 +183,11 @@ Jag drivs av att bygga användarvänliga och responsiva webblösningar där tekn
     ],
 
     softSkills: [
-      "initiativtagande",
+      "Förhandling",
+      "Kommunikation",
+      "Problemlösning",
+      "Resultatfokus",
+      "Initiativtagande",
       "Lösningsorienterad och nyfiken",
       "Målinriktad doer med passion för utveckling",
       "Starkt driv för att skapa värde samt bygga relationer både internt och externt",
@@ -207,12 +209,11 @@ Jag drivs av att bygga användarvänliga och responsiva webblösningar där tekn
     footer: "Designed & built by",
     using: "using",
 
-    title: "CV shows experience. A conversation reveals potential.",
-    profileText: `Frontend developer with a background in sales and business-driven roles. I am currently studying Frontend Development at Jensen Yrkeshögskola.
+    title: "“CV shows experience. A conversation reveals potential”",
+    profileText: `
+    With a background in sales and business-driven roles, combined with an education in frontend development, I have built a broad skill set across both business and technology. Previously, I worked as a Key Account Manager, responsible for strategic partnerships and long-term client relationships.
     
-    Previously, I worked as a Key Account Manager at Viaplay Group Radio, where I was responsible for strategic partnerships with some of Sweden’s largest companies. This experience gave me strong skills in client management, needs analysis, and driving projects from idea to results.
-    
-    I am motivated by building user-friendly and responsive web solutions where technology meets real business and user needs. With an understanding of both the customer perspective and development, I thrive at the intersection of business and technology.`,
+    I combine technical understanding with a strong business perspective and have experience in identifying needs, driving projects, and creating value for both clients and organizations. I thrive in roles where technology, product, and business intersect, and I enjoy contributing throughout the entire process, from idea to result.`,
 
     experience: [
       {
@@ -348,6 +349,10 @@ Jag drivs av att bygga användarvänliga och responsiva webblösningar där tekn
     ],
 
     softSkills: [
+      "Negotiation",
+      "Communication",
+      "Problem-solving",
+      "Results-driven mindset",
       "initiative and proactive",
       "Solution oriented and curious",
       "Goal-driven doer with a passion for growth",
